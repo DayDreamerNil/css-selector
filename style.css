@@ -1,0 +1,118 @@
+.intro {
+   color: red;
+  }
+  .intro .name{
+    font-size: 20px;
+  }
+  /**element**/
+  h1{
+    font-style: italic;
+  }
+  h1 .name{
+    
+  }
+  h2, h3 {
+    background-color: yellow;
+  }
+  div p {
+    background-color: red;
+  }
+  div > p {
+    
+  }
+  div + p {
+    background-color: yellow;
+  }
+  p ~ ul {
+    background: #ff0000;
+  } 
+  ul,li,a[target] {
+    background-color: green;
+  }
+  a[target="_blank"] {
+    background-color: yellow;
+  }
+  .pw:active {
+    background-color: greenyellow;
+  }
+  .mw::after {
+    content: " - Remember this";
+  }
+  .nw::before {
+    content: "Read this: ";
+  }
+  input:checked {
+    height: 150px;
+    width: 350px;
+  }
+  input:default {
+    box-shadow: 0 0 1px 1px red;
+  }
+  input[type="text"]:disabled {
+    background: #dddddd;
+  }
+  input[type="text"]:enabled {
+    background: #ffff00;
+  }
+  .hw:empty {
+    background: #ff0000;
+  }
+  p:first-child {
+    background-color: yellow;
+  }
+  p::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+  }
+  p::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+  }
+  forp:first-of-type {
+    background: red;
+  }
+  fors:focus {
+    background-color: yellow;
+  }
+  full:fullscreen {
+    background-color: yellow;
+  }
+  a:hover {
+    background-color: yellow;
+  }
+  input:in-range {
+    border: 2px solid yellow;
+  }
+  input:indeterminate {
+    box-shadow: 0 0 1px 1px red;
+  } 
+  pp:lang(it) {
+    background: yellow;
+  }
+  p:last-child {
+    background: #ff0000;
+  }
+  p:last-of-type {
+    background: #ff0000;
+  }
+  a:link {
+    background-color: yellow;
+  }
+  ::-webkit-input-placeholder { /* Edge */
+    color: red;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+  }
+  
+  ::placeholder {
+    color: red;
+  }
+  :root {
+    background: #ff0000;
+  }
+  :target {
+    border: 2px solid #D4D4D4;
+    background-color: #e5eecc;
+  }
